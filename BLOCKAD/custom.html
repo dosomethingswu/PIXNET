@@ -1,0 +1,13 @@
+<style>
+#pilot,
+#mib-video-expander,
+#pix-mib-unfold-ad,
+html body .main-container #main [data-plugin_type],
+html body .main-container #main [data-ad-client][data-ad-slot],
+[style="position: static !important; display:block !important;visibility: visible !important; float: none !important; text-align: center"]
+{display:none!important;}
+</style>
+<script>
+window.ADLISTS = '#mib-video-expander,#pix-mib-unfold-ad,html body .main-container #main [data-plugin_type],[style="position: static !important; display:block !important;visibility: visible !important; float: none !important; text-align: center"]';
+jQuery(window.ADLISTS).remove();
+</script>
